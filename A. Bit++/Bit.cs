@@ -11,16 +11,16 @@
 //}
 //Console.WriteLine(x);
 
-namespace proplems_solved.A._Bit__
-{
-    public static class Bit
-    {
-        public static int Execute(string compiledstatement,int currentValue)
-        {
-            if (compiledstatement[1] == '+')
-                return ++currentValue;
+//namespace proplems_solved.A._Bit__
+//{
+//    public static class Bit
+//    {
+//        public static int Execute(string compiledstatement,int currentValue)
+//        {
+//            if (compiledstatement[1] == '+')
+//                return ++currentValue;
 
-            return --currentValue;
-        }
-    }
-}
+//            return --currentValue;
+//        }
+//    }
+//}

@@ -13,14 +13,27 @@ namespace proplems_solved.LinkedListt
         public Node<T> Tail { get; set; }
 
         public void PrePend(Node<T> newNode)
-        { 
+        {
+            if (Head == null && Tail == null)
+            {
+                Head = Tail = newNode;
+                return;
+            }
             newNode.Next=Head;
+            Head!.Previous = newNode;
             Head=newNode;
         }
+
         public void Append(Node<T> newNode)
         {
-            newNode.Previous = Tail;
+            if (Head == null && Tail == null)
+            {
+                Head=Tail=newNode;
+                return;
+            }
+
             Tail.Next = newNode;
+            newNode.Previous = Tail;
             Tail=newNode;
         }
 
@@ -38,8 +51,14 @@ namespace proplems_solved.LinkedListt
             }
             return -1;
         }
+
         public void InsertAt(int index,Node<T> node)
         {
+            if (Head == null && Tail == null)
+            {
+                Head = Tail = node;
+                return;
+            }
             if (index == 0)
             {
                 node.Next = Head;
@@ -47,12 +66,11 @@ namespace proplems_solved.LinkedListt
                 return;
             }
             int i = 0;
-            Node<T> current = Head;
+            Node<T> current = Head!;
             while (i!=index) 
             {
-                if (current.Next == null)
+                if (current!.Next == null)
                 {
-                    Tail= current;
                     current.Next = node;
                     node.Previous = Tail;
                     Tail = node;
@@ -63,39 +81,61 @@ namespace proplems_solved.LinkedListt
             }
 
             node.Next = current;
-            node.Previous = current.Previous;
-            current.Previous.Next= node;
-            current.Next.Previous= node;
+            node.Previous = current!.Previous;
+            current.Previous!.Next= node;
+            current.Previous = node;
         }
 
         public void RemoveAt(int index)
         {
+            if (Head == null && Tail == null)
+            {
+                throw new ArgumentException("the current linked list doesnt have nay items");
+            }
+
             if (index == 0)
             {
-                Head=Head.Next;
+                Head=Head.Next!;
                 Head.Previous = null;
                 return;
             }
+
             int i = 1;
-            Node<T> current = Head.Next;
-            Node<T> previous ;
+            Node<T> current = Head.Next!;
             while (i != index)
             {
-                current = current.Next;
+                if (current!.Next == null)
+                {
+                    throw new ArgumentException($"the current linked list doesnt have any items with the index {index}");
+                }
+                current = current.Next!;
                 i++;
             }
-            previous=current.Previous;
-            previous.Next = current.Next;
+            if (Head == Tail)
+            {
+                Head = Tail = null;
+                return;
+            }
+            if (current == Tail)
+            {
+                Tail = Tail.Previous;
+                Tail.Next = null;
+            }
+
+            current.Previous!.Next = current.Next;
+            current.Next!.Previous = current.Previous;
             current.Previous = null;
             current.Next = null;
         }
+
+
         public void Traverse()
         {
             Node<T> current = Head;
             while(current != null)
             {
                 Console.WriteLine(current.Value);
-                current = current.Next;
+                current = current.Next!;
             }
         }
     }
