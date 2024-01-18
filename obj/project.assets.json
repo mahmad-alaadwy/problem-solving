@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mahma\\.nuget\\packages\\": {}
+    "C:\\Users\\East-Sound\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\proplems solved\\proplems solved.csproj",
+      "projectUniqueName": "C:\\Users\\East-Sound\\Source\\Repos\\problem-solving\\proplems solved.csproj",
       "projectName": "proplems solved",
-      "projectPath": "G:\\proplems solved\\proplems solved.csproj",
-      "packagesPath": "C:\\Users\\mahma\\.nuget\\packages\\",
-      "outputPath": "G:\\proplems solved\\obj\\",
+      "projectPath": "C:\\Users\\East-Sound\\Source\\Repos\\problem-solving\\proplems solved.csproj",
+      "packagesPath": "C:\\Users\\East-Sound\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\East-Sound\\Source\\Repos\\problem-solving\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mahma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\East-Sound\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

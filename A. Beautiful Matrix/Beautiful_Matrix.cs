@@ -1,20 +1,20 @@
-﻿using proplems_solved.A._Beautiful_Matrix;
+﻿//using proplems_solved.A._Beautiful_Matrix;
 
-int[,] nk = new int[5, 5];
+//int[,] nk = new int[5, 5];
 
-// Read input values and populate the array
-for (int i = 0; i < 5; i++)
-{
-    string[] inputValues = Console.ReadLine().Trim().Split(' ');
+//// Read input values and populate the array
+//for (int i = 0; i < 5; i++)
+//{
+//    string[] inputValues = Console.ReadLine().Trim().Split(' ');
 
-    for (int j = 0; j < 5; j++)
-    {
-        nk[i, j] = Convert.ToInt32(inputValues[j]);
-    }
-}
+//    for (int j = 0; j < 5; j++)
+//    {
+//        nk[i, j] = Convert.ToInt32(inputValues[j]);
+//    }
+//}
 
-int NumberOfSwaps = Beautiful_Matrix.numberOfSwaps(nk);
-Console.WriteLine(NumberOfSwaps);
+//int NumberOfSwaps = Beautiful_Matrix.numberOfSwaps(nk);
+//Console.WriteLine(NumberOfSwaps);
 
 
 

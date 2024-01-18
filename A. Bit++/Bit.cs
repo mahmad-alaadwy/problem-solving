@@ -1,15 +1,15 @@
 ﻿
 
-using proplems_solved.A._Bit__;
+//using proplems_solved.A._Bit__;
 
-int numberOfIterations = int.Parse(Console.ReadLine());
-int x = 0;
-for (int i = 0; i < numberOfIterations; i++)
-{
-    var statement = Console.ReadLine();
-    x = Bit.Execute(statement, x);
-}
-Console.WriteLine(x);
+//int numberOfIterations = int.Parse(Console.ReadLine());
+//int x = 0;
+//for (int i = 0; i < numberOfIterations; i++)
+//{
+//    var statement = Console.ReadLine();
+//    x = Bit.Execute(statement, x);
+//}
+//Console.WriteLine(x);
 
 namespace proplems_solved.A._Bit__
 {

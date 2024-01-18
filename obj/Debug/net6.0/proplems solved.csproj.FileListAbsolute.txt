@@ -13,3 +13,18 @@ G:\proplems solved\obj\Debug\net6.0\refint\proplems solved.dll
 G:\proplems solved\obj\Debug\net6.0\proplems solved.pdb
 G:\proplems solved\obj\Debug\net6.0\proplems solved.genruntimeconfig.cache
 G:\proplems solved\obj\Debug\net6.0\ref\proplems solved.dll
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.AssemblyInfoInputs.cache
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.AssemblyInfo.cs
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.csproj.CoreCompileInputs.cache
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.sourcelink.json
+C:\Users\East-Sound\Source\Repos\problem-solving\bin\Debug\net6.0\proplems solved.exe
+C:\Users\East-Sound\Source\Repos\problem-solving\bin\Debug\net6.0\proplems solved.deps.json
+C:\Users\East-Sound\Source\Repos\problem-solving\bin\Debug\net6.0\proplems solved.runtimeconfig.json
+C:\Users\East-Sound\Source\Repos\problem-solving\bin\Debug\net6.0\proplems solved.dll
+C:\Users\East-Sound\Source\Repos\problem-solving\bin\Debug\net6.0\proplems solved.pdb
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.dll
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\refint\proplems solved.dll
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.pdb
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\proplems solved.genruntimeconfig.cache
+C:\Users\East-Sound\Source\Repos\problem-solving\obj\Debug\net6.0\ref\proplems solved.dll
