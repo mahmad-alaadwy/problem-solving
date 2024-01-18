@@ -1,12 +1,12 @@
 ﻿
 
-using proplems_solved.A._Domino_piling;
+//using proplems_solved.A._Domino_piling;
 
-int[] nk = new int[2];
-nk = Array.ConvertAll(Console.ReadLine().Trim().Split(' '), Convert.ToInt32);
+//int[] nk = new int[2];
+//nk = Array.ConvertAll(Console.ReadLine().Trim().Split(' '), Convert.ToInt32);
 
-int NumberOfDominoThatFits = Domino_piling.NumberOfDominoFitInTheBoard(nk[1], nk[0]);
-Console.WriteLine(NumberOfDominoThatFits);
+//int NumberOfDominoThatFits = Domino_piling.NumberOfDominoFitInTheBoard(nk[1], nk[0]);
+//Console.WriteLine(NumberOfDominoThatFits);
 
 
 namespace proplems_solved.A._Domino_piling
