@@ -1,13 +1,28 @@
-﻿//using proplems_solved.Algorithms.Sorting;
+﻿
+using proplems_solved.LinkedListt;
 
-//int[] numbs = { 8, 3, -3, 4, 6, 7, 9, 13, 3, 22, 15, 19 };
-//BubbleSort<int>.Sort(numbs);
+LinkedListt<int> x = new LinkedListt<int>();
 
-//foreach (int i in numbs)
-//    Console.WriteLine(i);
+Node<int> y = new Node<int>();
+y.Value = 5;
+Node<int> v = new Node<int>();
+v.Value = 6;
 
-using proplems_solved.A._Helpful_Maths;
+Node<int> m = new Node<int>();
+m.Value = 9;
 
-string q = Console.ReadLine();
-string s = AHelpfulMaths.SumHelper(q);
-Console.WriteLine(s);
+Node<int> f = new Node<int>();
+f.Value = 1;
+
+Node<int> mid = new Node<int>();
+mid.Value = 7;
+
+
+x.InsertAt(0, y);
+x.InsertAt(1, v);
+x.Append(m);
+x.PrePend(f);
+x.InsertAt(1, mid);
+x.Traverse();
+x.RemoveAt(1);
+x.Traverse();
