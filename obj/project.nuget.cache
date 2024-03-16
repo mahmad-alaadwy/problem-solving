@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RMhOJkD29e+NnI27/U1dulRQLCqCZs+P/tkJUvaqOCt8zgNQUj2TqsQrpPAy8Zk513uRTRkQe8px9tImx/1hLA==",
+  "dgSpecHash": "1hYVCr3ATKsZsuB9Q6flIDYs0UbFEqOeH4tloUHZEU70z9yZGrofg/8GuozUu6ladzzMwFC50sOOjctXSlid/g==",
   "success": true,
-  "projectFilePath": "G:\\proplems solved\\proplems solved.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mahma\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\mahma\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\mahma\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\mahma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\East-Sound\\Source\\Repos\\problem-solving\\proplems solved.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
