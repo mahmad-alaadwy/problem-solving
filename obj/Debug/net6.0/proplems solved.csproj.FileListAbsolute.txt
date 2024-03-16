@@ -3,7 +3,6 @@ G:\proplems solved\bin\Debug\net6.0\proplems solved.deps.json
 G:\proplems solved\bin\Debug\net6.0\proplems solved.runtimeconfig.json
 G:\proplems solved\bin\Debug\net6.0\proplems solved.dll
 G:\proplems solved\bin\Debug\net6.0\proplems solved.pdb
-G:\proplems solved\obj\Debug\net6.0\proplems solved.csproj.AssemblyReference.cache
 G:\proplems solved\obj\Debug\net6.0\proplems solved.GeneratedMSBuildEditorConfig.editorconfig
 G:\proplems solved\obj\Debug\net6.0\proplems solved.AssemblyInfoInputs.cache
 G:\proplems solved\obj\Debug\net6.0\proplems solved.AssemblyInfo.cs
@@ -13,3 +12,4 @@ G:\proplems solved\obj\Debug\net6.0\refint\proplems solved.dll
 G:\proplems solved\obj\Debug\net6.0\proplems solved.pdb
 G:\proplems solved\obj\Debug\net6.0\proplems solved.genruntimeconfig.cache
 G:\proplems solved\obj\Debug\net6.0\ref\proplems solved.dll
+G:\proplems solved\obj\Debug\net6.0\proplems solved.sourcelink.json

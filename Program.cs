@@ -1,28 +1,28 @@
-﻿
-using proplems_solved.LinkedListt;
+﻿using proplems_solved.A._Calculating_Function;
+using System.Numerics;
 
-LinkedListt<int> x = new LinkedListt<int>();
+_486problemA.PrintFOfNum(Console.ReadLine());
+public static class _486problemA
+{
+    public static int PrintFOfNum(string input)
+    {
+        if (BigInteger.TryParse(input, out BigInteger number))
+        {
+            Console.WriteLine(FOfNumber(number));
+        }
+        else
+        {
+            throw new Exception("please enter a valid number");
+        }
+        return 0;
+    }
 
-Node<int> y = new Node<int>();
-y.Value = 5;
-Node<int> v = new Node<int>();
-v.Value = 6;
-
-Node<int> m = new Node<int>();
-m.Value = 9;
-
-Node<int> f = new Node<int>();
-f.Value = 1;
-
-Node<int> mid = new Node<int>();
-mid.Value = 7;
-
-
-x.InsertAt(0, y);
-x.InsertAt(1, v);
-x.Append(m);
-x.PrePend(f);
-x.InsertAt(1, mid);
-x.Traverse();
-x.RemoveAt(1);
-x.Traverse();
+    private static BigInteger FOfNumber(BigInteger number)
+    {
+        BigInteger largestEvenLessThanN = number % 2 == 0 ? number : number - 1;
+        BigInteger sumEven = largestEvenLessThanN/2 * (largestEvenLessThanN/2 + 1);
+        BigInteger largestOddLessThanN = number % 2 == 1 ? number : number - 1;
+        BigInteger sumOdd = (largestOddLessThanN / 2 + 1) * (largestOddLessThanN / 2 + 1);
+        return sumEven-sumOdd;
+    }
+}
